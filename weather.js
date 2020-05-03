@@ -142,9 +142,9 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         let month4 = dateObject4.toLocaleString("en-US", {month: "numeric"})
                         let day4 = dateObject4.toLocaleString("en-US", {day: "numeric"})
 
-                     if (d.getHours() >= 18 || d.getHours() < 06) {
+                     if (time >= 18 || time < 06) {
                         console.log("NIGHT") 
-                        document.body.style.background = "url('./images/night.jpg')"
+                        document.body.style.background = "black"
                         night.style.display = "block"
                         nighty.style.display = "block" 
                         tempn.innerHTML = res.current.temp + "&#8451";
@@ -180,7 +180,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
  
                         if (res.daily[0].weather[0].main === "Clouds" || res.daily[0].weather[0].main === "Smoke" || res.daily[0].weather[0].main === "Mist" || res.daily[0].weather[0].main === "Haze" || res.daily[0].weather[0].main === "Dust" || res.daily[0].weather[0].main === "Fog" || res.daily[0].weather[0].main === "Sand") {
                             dailyDescn.innerHTML = "Cloudy"
-                            dailyCloudn.style.display = "block"
+                            dailyCloudn.style.display = "inline-block"
                             dailyRainn.style.display = "none"
                             dailyMoonn.style.display ="none"
                             dailySnown.style.display = "none"
@@ -345,10 +345,10 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         }
                     }
                     
-                    else if (d.getHours() > 06 || d.getHours() < 18) {
+                    else if (time > 06 || time < 18) {
                         console.log("DAY")
                         morning.style.display = "block"
-                        document.body.style.background ="url('./images/morning.jpg')"
+                        document.body.style.background = "white"
                         sunny.style.display = "block" 
                         temp.innerHTML = res.current.temp + "&#8451";
                         if(res.current.weather[0].main === "Clear") {
