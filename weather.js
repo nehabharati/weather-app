@@ -180,7 +180,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
  
                         if (res.daily[0].weather[0].main === "Clouds" || res.daily[0].weather[0].main === "Smoke" || res.daily[0].weather[0].main === "Mist" || res.daily[0].weather[0].main === "Haze" || res.daily[0].weather[0].main === "Dust" || res.daily[0].weather[0].main === "Fog" || res.daily[0].weather[0].main === "Sand") {
                             dailyDescn.innerHTML = "Cloudy"
-                            dailyCloudn.style.display = "inline-block"
+                            dailyCloudn.style.display = "block"
                             dailyRainn.style.display = "none"
                             dailyMoonn.style.display ="none"
                             dailySnown.style.display = "none"
