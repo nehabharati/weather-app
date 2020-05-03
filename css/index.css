@@ -161,7 +161,7 @@ body {
     min-width: 150px;
     min-height: 50px; }
 
-  #mn, #sn, #rn, #cn {
+  #mn, #sn, #rn, #cn, #sun, #cd, #rd, #sd {
     position: absolute;
     bottom: 0.1em;
     right: 7.5em; }
@@ -176,48 +176,48 @@ body {
     top: -4.0em;
     left: 8.5em; }
 
-  #dailyn {
+  #dailyn, #dailyd {
     position: absolute;
     top: 0;
     left: 0;
     margin-top: 3em; }
 
-  #todayn {
+  #todayn, #todayd {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: 4em;
     margin-top: 3em; }
 
-  #plus1n {
+  #plus1n, #plus1d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -0.8em;
     margin-top: 6em; }
 
-  #plus2n {
+  #plus2n, #plus2d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -5.8em;
     margin-top: 9em; }
 
-  #plus3n {
+  #plus3n, #plus3d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -10.6em;
     margin-top: 12em; }
 
-  #plus4n {
+  #plus4n, #plus4d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -15em;
     margin-top: 15em; }
 
-  #daily-cloudn {
+  #daily-cloudn, #daily-rainn, #daily-snown, #daily-moonn, #daily-cloudd, #daily-raind, #daily-snowd, #daily-sund {
     display: none;
     width: 0.5em;
     position: absolute;
@@ -226,7 +226,7 @@ body {
     margin-left: 4em;
     margin-top: -19.5em; }
 
-  #daily-descn {
+  #daily-descn, #daily-descd {
     font-size: 1em;
     color: white;
     position: absolute;
@@ -235,7 +235,7 @@ body {
     margin-left: 10em;
     margin-top: -20em; }
 
-  #daily-daten {
+  #daily-daten, #daily-dated {
     font-size: 1em;
     position: absolute;
     top: 22em;
@@ -244,7 +244,7 @@ body {
     margin-top: -15em;
     margin-left: -2em; }
 
-  #daily-cloudn1 {
+  #daily-cloudn1, #daily-rainn1, #daily-snown1, #daily-moonn1, #daily-cloudd1, #daily-raind1, #daily-snowd1, #daily-sund1 {
     display: none;
     width: 2.5em;
     position: absolute;
@@ -254,7 +254,7 @@ body {
     margin-left: 4em;
     margin-top: -19.5em; }
 
-  #daily-descn1 {
+  #daily-descn1, #daily-descd1 {
     font-size: 1em;
     position: absolute;
     color: white;
@@ -263,7 +263,7 @@ body {
     margin-left: 10em;
     margin-top: -20em; }
 
-  #daily-daten1 {
+  #daily-daten1, #daily-dated1 {
     font-size: 1em;
     position: absolute;
     color: white;
@@ -272,42 +272,7 @@ body {
     margin-top: -15em;
     margin-left: -2em; }
 
-  #daily-descn2 {
-    font-size: 1em;
-    position: absolute;
-    color: white;
-    top: 27em;
-    left: 12.5em;
-    margin-left: 10em;
-    margin-top: -20em; }
-
-  #daily-daten2 {
-    font-size: 1em;
-    position: absolute;
-    color: white;
-    top: 22em;
-    left: 13.0em;
-    margin-top: -15em;
-    margin-left: -2em; }
-
-  #daily-descn3 {
-    font-size: 1em;
-    position: absolute;
-    color: white;
-    top: 27em;
-    left: 17em;
-    margin-left: 10em;
-    margin-top: -20em; }
-
-  #daily-daten3 {
-    font-size: 1em;
-    position: absolute;
-    top: 22em;
-    left: 17.7em;
-    margin-top: -15em;
-    margin-left: -2em; }
-
-  #daily-moonn2 {
+  #daily-cloudn2, #daily-rainn2, #daily-snown2, #daily-moonn2, #daily-cloudd2, #daily-raind2, #daily-snowd2, #daily-sund2 {
     display: none;
     width: 2.3em;
     position: absolute;
@@ -316,7 +281,25 @@ body {
     margin-left: 4.2em;
     margin-top: -19em; }
 
-  #daily-moonn3 {
+  #daily-descn2, #daily-descd2 {
+    font-size: 1em;
+    position: absolute;
+    color: white;
+    top: 27em;
+    left: 12.5em;
+    margin-left: 10em;
+    margin-top: -20em; }
+
+  #daily-daten2, #daily-dated2 {
+    font-size: 1em;
+    position: absolute;
+    color: white;
+    top: 22em;
+    left: 13.0em;
+    margin-top: -15em;
+    margin-left: -2em; }
+
+  #daily-cloudn3, #daily-rainn3, #daily-snown3, #daily-moonn3, #daily-cloudd3, #daily-raind3, #daily-snowd3, #daily-sund3 {
     display: none;
     position: absolute;
     top: 25.5em;
@@ -324,7 +307,24 @@ body {
     margin-left: 4.2em;
     margin-top: -19em; }
 
-  #daily-cloudn4 {
+  #daily-descn3, #daily-descd3 {
+    font-size: 1em;
+    position: absolute;
+    color: white;
+    top: 27em;
+    left: 17em;
+    margin-left: 10em;
+    margin-top: -20em; }
+
+  #daily-daten3, #daily-dated3 {
+    font-size: 1em;
+    position: absolute;
+    top: 22em;
+    left: 17.7em;
+    margin-top: -15em;
+    margin-left: -2em; }
+
+  #daily-cloudn4, #daily-rainn4, #daily-snown4, #daily-moonn4, #daily-cloudd4, #daily-raind4, #daily-snowd4, #daily-sund4 {
     display: none;
     width: 2.5em;
     position: absolute;
@@ -333,7 +333,7 @@ body {
     margin-left: 4.2em;
     margin-top: -19em; }
 
-  #daily-descn4 {
+  #daily-descn4, #daily-descd4 {
     font-size: 1em;
     color: white;
     position: absolute;
@@ -342,7 +342,7 @@ body {
     margin-left: 10em;
     margin-top: -20em; }
 
-  #daily-daten4 {
+  #daily-daten4, #daily-dated4 {
     font-size: 1em;
     position: absolute;
     top: 22em;
@@ -375,16 +375,7 @@ body {
     top: 0;
     left: 0;
     margin-left: -1em;
-    margin-top: 2em; }
-
-  #daily-daten {
-    font-size: 0.3em;
-    position: absolute;
-    top: 22em;
-    color: white;
-    left: 3.2em;
-    margin-top: -15em;
-    margin-left: -2em; } }
+    margin-top: 2em; } }
 @media only screen and (max-width: 900px) {
   #night, #day {
     min-width: 150px;
@@ -453,7 +444,7 @@ body {
     min-width: 150px;
     min-height: 250px; }
 
-  #mn, #sn, #rn, #cn {
+  #mn, #sn, #rn, #cn, #md, #sun, #rd, #cd {
     position: absolute;
     bottom: -2.5em;
     right: 7.5em; }
@@ -470,20 +461,20 @@ body {
     top: 0.6em;
     left: 12.5em; }
 
-  #dailyn {
+  #dailyn, #dailyd {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -3.5em;
     margin-top: 1em; }
 
-  #todayn {
+  #todayn, #todayd {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: 1em;
     margin-top: 3em; }
-    #todayn > #daily-descn {
+    #todayn > #daily-descn, #todayn #daily-descd, #todayd > #daily-descn, #todayd #daily-descd {
       font-size: 0.9em;
       color: white;
       position: absolute;
@@ -491,7 +482,7 @@ body {
       left: 2.5em;
       margin-left: 13em;
       margin-top: -3em; }
-    #todayn > #daily-daten {
+    #todayn > #daily-daten, #todayn #daily-dated, #todayd > #daily-daten, #todayd #daily-dated {
       font-size: 0.9em;
       position: absolute;
       top: 22em;
@@ -500,13 +491,13 @@ body {
       margin-top: -15em;
       margin-left: 2em; }
 
-  #plus1n {
+  #plus1n, #plus1d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -0.8em;
     margin-top: 6em; }
-    #plus1n > #daily-descn1 {
+    #plus1n > #daily-descn1, #plus1n #daily-descd1, #plus1d > #daily-descn1, #plus1d #daily-descd1 {
       font-size: 0.9em;
       position: absolute;
       color: white;
@@ -514,7 +505,7 @@ body {
       left: 7.5em;
       margin-left: 10em;
       margin-top: -20em; }
-    #plus1n > #daily-daten1 {
+    #plus1n > #daily-daten1, #plus1n #daily-dated1, #plus1d > #daily-daten1, #plus1d #daily-dated1 {
       font-size: 0.9em;
       position: absolute;
       color: white;
@@ -523,13 +514,13 @@ body {
       margin-top: -15em;
       margin-left: -0.8em; }
 
-  #plus2n {
+  #plus2n, #plus2d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -5.8em;
     margin-top: 9em; }
-    #plus2n > #daily-descn2 {
+    #plus2n > #daily-descn2, #plus2n #daily-descd2, #plus2d > #daily-descn2, #plus2d #daily-descd2 {
       font-size: 0.9em;
       position: absolute;
       color: white;
@@ -537,7 +528,7 @@ body {
       left: 12.5em;
       margin-left: 10.8em;
       margin-top: -20em; }
-    #plus2n > #daily-daten2 {
+    #plus2n > #daily-daten2, #plus2n #daily-dated2, #plus2d > #daily-daten2, #plus2d #daily-dated2 {
       font-size: 0.9em;
       position: absolute;
       color: white;
@@ -546,13 +537,13 @@ body {
       margin-top: -15em;
       margin-left: -0.2em; }
 
-  #plus3n {
+  #plus3n, #plus3d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -10.6em;
     margin-top: 12em; }
-    #plus3n > #daily-descn3 {
+    #plus3n > #daily-descn3, #plus3n #daily-descd3, #plus3d > #daily-descn3, #plus3d #daily-descd3 {
       font-size: 0.9em;
       position: absolute;
       color: white;
@@ -560,7 +551,7 @@ body {
       left: 17em;
       margin-left: 11.5em;
       margin-top: -20em; }
-    #plus3n > #daily-daten3 {
+    #plus3n > #daily-daten3, #plus3n #daily-dated3, #plus3d > #daily-daten3, #plus3d #daily-dated3 {
       font-size: 0.9em;
       position: absolute;
       top: 22em;
@@ -568,13 +559,13 @@ body {
       margin-top: -15em;
       margin-left: 0.3em; }
 
-  #plus4n {
+  #plus4n, #plus4d {
     position: absolute;
     top: 0;
     left: 0;
     margin-left: -15em;
     margin-top: 15em; }
-    #plus4n > #daily-descn4 {
+    #plus4n > #daily-descn4, #plus4n #daily-descd4, #plus4d > #daily-descn4, #plus4d #daily-descd4 {
       font-size: 0.9em;
       color: white;
       position: absolute;
@@ -582,7 +573,7 @@ body {
       left: 21.3em;
       margin-left: 12em;
       margin-top: -20em; }
-    #plus4n > #daily-daten4 {
+    #plus4n > #daily-daten4, #plus4n #daily-dated4, #plus4d > #daily-daten4, #plus4d #daily-dated4 {
       font-size: 0.9em;
       position: absolute;
       top: 22em;
@@ -591,7 +582,7 @@ body {
       margin-top: -15em;
       margin-left: 0.8em; }
 
-  #daily-cloudn {
+  #daily-cloudn, #daily-rainn, #daily-snown, #daily-moonn, #daily-cloudd, #daily-raind, #daily-snowd, #daily-sund {
     display: none;
     font-size: 0.7em;
     position: absolute;
@@ -600,7 +591,7 @@ body {
     margin-left: 11em;
     margin-top: -17em; }
 
-  #daily-cloudn1 {
+  #daily-cloudn1, #daily-rainn1, #daily-snown1, #daily-moonn1, #daily-cloudd1, #daily-raind1, #daily-snowd1, #daily-sund1 {
     display: none;
     font-size: 0.7em;
     position: absolute;
@@ -610,7 +601,7 @@ body {
     margin-left: 9em;
     margin-top: -17em; }
 
-  #daily-moonn2 {
+  #daily-cloudn2, #daily-rainn2, #daily-snown2, #daily-moonn2, #daily-cloudd2, #daily-raind2, #daily-snowd2, #daily-sund2 {
     display: none;
     font-size: 0.7em;
     position: absolute;
@@ -619,7 +610,7 @@ body {
     margin-left: 11.3em;
     margin-top: -17em; }
 
-  #daily-moonn3 {
+  #daily-cloudn3, #daily-rainn3, #daily-snown3, #daily-moonn3, #daily-cloudd3, #daily-raind3, #daily-snowd3, #daily-sund3 {
     display: none;
     position: absolute;
     font-size: 0.7em;
@@ -628,7 +619,7 @@ body {
     margin-left: 13.3em;
     margin-top: -17em; }
 
-  #daily-cloudn4 {
+  #daily-cloudn4, #daily-rainn4, #daily-snown4, #daily-moonn4, #daily-cloudd4, #daily-raind4, #daily-snowd4, #daily-sund4 {
     display: none;
     font-size: 0.7em;
     position: absolute;

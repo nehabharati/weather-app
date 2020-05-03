@@ -142,7 +142,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         let month4 = dateObject4.toLocaleString("en-US", {month: "numeric"})
                         let day4 = dateObject4.toLocaleString("en-US", {day: "numeric"})
 
-                     if (time >= 18 || time < 06) {
+                     if (d.getHours() >= 18 || d.getHours() < 06) {
                         console.log("NIGHT") 
                         document.body.style.background = "black"
                         night.style.display = "block"
@@ -345,7 +345,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         }
                     }
                     
-                    else if (time > 06 || time < 18) {
+                    else if (d.getHours() > 06 || d.getHours() < 18) {
                         console.log("DAY")
                         morning.style.display = "block"
                         document.body.style.background = "white"
