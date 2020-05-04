@@ -496,8 +496,8 @@ header > h1 {
 
   #mn, #sn, #rn, #cn, #md, #sun, #rd, #cd {
     position: absolute;
-    bottom: -2.5em;
-    right: 7.5em; }
+    bottom: -2.7em;
+    right: 6.5em; }
 
   #tempn, #temp {
     position: absolute;
@@ -747,7 +747,7 @@ header > h1 {
     font-size: 0.7em;
     top: 25.5em;
     left: 17.4em;
-    margin-left: 13.3em;
+    margin-left: 13.7em;
     margin-top: -17em; }
 
   #daily-cloudn4, #daily-rainn4, #daily-snown4, #daily-moonn4, #daily-cloudd4, #daily-raind4, #daily-snowd4, #daily-sund4 {
@@ -775,7 +775,7 @@ header > h1 {
   #night, #day {
     min-width: 150px;
     min-height: 300px;
-    margin-top: 2em; }
+    margin-top: 3em; }
 
   #dailyn, #dailyd {
     position: absolute;

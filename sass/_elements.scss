@@ -558,8 +558,8 @@ header{
     }
     #mn,#sn,#rn,#cn,#md,#sun,#rd,#cd{
         position: absolute;
-        bottom:-2.5em;
-        right:7.5em;
+        bottom:-2.7em;
+        right:6.5em;
     }
     #tempn,#temp{
         position: absolute;
@@ -844,7 +844,7 @@ header{
         font-size: 0.7em;
         top:25.5em; 
         left: 17.4em;
-        margin-left: 13.3em;
+        margin-left: 13.7em;
         margin-top: -17em;
     }
     #daily-cloudn4,#daily-rainn4,#daily-snown4,#daily-moonn4,#daily-cloudd4,#daily-raind4,#daily-snowd4,#daily-sund4 {
@@ -856,40 +856,7 @@ header{
         margin-left: 15.3em;
         margin-top: -17em;
     }
-    
 }
-// @media only screen and (max-width:600px) {
-//     #night,#day {
-//         min-width: 150px;
-//         min-height: 250px;
-//     }
-//     #mn,#sn,#rn,#cn,#sun,#cd,#rd,#sd{
-//         position: absolute;
-//         bottom:-3.5em;
-//         left:-0.3em;
-//     }
-//     #tempn,#temp{
-//         position: absolute;
-//         font-size: 1em;
-//         top:0.8em;
-//         left:6.4em; 
-//     }
-//     #descn,#desc{
-//         position: absolute;
-//         font-size: 0.6em;
-//         top:1.5em;
-//         left: 10.5em; 
-//     } 
-//     #dailyn,#dailyd{
-//         position: absolute;
-//         position: absolute;
-//         top:0;
-//         left: 0; 
-//         margin-left: -3.0em;
-//         margin-top: 1em;
-//     }
-    
-// } 
 @media only screen and (max-width:490px) {
     #night,#day {
         min-width: 150px;
@@ -909,7 +876,7 @@ header{
     #night,#day {
         min-width: 150px;
         min-height: 300px;
-        margin-top: 2em;
+        margin-top: 3em;
     } 
     #dailyn,#dailyd{
         position: absolute;
