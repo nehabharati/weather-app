@@ -5,13 +5,26 @@
         <link href="./css/index.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&family=Montserrat&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
+        <header>
+            <h1>Weatherize</h1>
+        </header>
         <div class="location">
             <input type="text" id="city" placeholder="Type a city name">
-            <button type="button" onclick="getWeather()">Submit</button>
+            <button type="button" onclick="getWeather()" class="square_btn">Submit</button>
+            
         </div>
+        <!-- <label class="switch" id="switch" name="scale">
+            <input type="checkbox" checked id="unit" onclick="checkBox(this)">
+            <span class="slider round">
+                <p class="f" id="f">&#8457;</p>
+                <p class="c" id="c">&#8451;</p>
+            </span>
+        </label> -->
+        
 
             <div id="day">
                 <div class="sunny" id="sunny">
@@ -128,5 +141,7 @@
             </div> 
 
         <script type="text/javascript" src="./weather.js"></script>
+        <script  type="text/javascript" src="./checkBox.js">
+        </script>
     </body>
 </html>
