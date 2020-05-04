@@ -103,15 +103,12 @@ function getWeather() {
  
     var d = new Date();
     d.getHours(); 
-    console.log(d.getHours())
-
-time = 11
 fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86cee743fb997772e61006e0f9")
     .then(res => res.json())
     .then(res => fetch(" https://api.openweathermap.org/data/2.5/onecall?lat="+res.results[0].geometry.lat+"&lon="+res.results[0].geometry.lng+"&units=metric&appid=ebba0a82b1892fe9343e963816506644")
                 .then(res => res.json())
                 .then(res => {
-                    console.log(res) 
+                    (res) 
 
                         const unixTimestamp = res.daily[0].dt
                         const milliseconds = unixTimestamp * 1000 
@@ -143,9 +140,8 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         let month4 = dateObject4.toLocaleString("en-US", {month: "numeric"})
                         let day4 = dateObject4.toLocaleString("en-US", {day: "numeric"})
 
-                     if (time >= 18 || time < 06) {
-                        console.log("NIGHT") 
-                        document.body.style.background = "black"
+                     if (d.getHours() >= 18 || d.getHours() < 06) {
+                         document.body.style.background = "black"
                         night.style.display = "block"
                         nighty.style.display = "block" 
                         tempn.innerHTML = res.current.temp + "&#8451";
@@ -346,9 +342,8 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         }
                     }
                     
-                    else if (time > 06 || time < 18) {
-                        console.log("DAY")
-                        morning.style.display = "block"
+                    else if (d.getHours() > 06 || d.getHours() < 18) {
+                         morning.style.display = "block"
                         document.body.style.background = "white"
                         sunny.style.display = "block" 
                         temp.innerHTML = res.current.temp + "&#8451";
