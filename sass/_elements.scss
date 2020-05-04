@@ -60,11 +60,11 @@ header{
 
 .location{
     display: flex;
-    // width: 2em;
+    position: fixed;
+    top:5em;
     margin: 1em 0;
     > input[type=text] {
-        padding: 15px 70px;
-        text-align: left;
+        padding: 10px;
         margin-right: 5%; 
         border-bottom: 2px solid $dark-turqiouse;
         border-top: none;
@@ -191,7 +191,7 @@ header{
     background-color: transparent;
     display: none; 
     position: relative;
-    margin-top: 2em;
+    margin-top: 4em;
     animation: levitate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
