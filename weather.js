@@ -1,15 +1,4 @@
-// var d = new Date();
-// d.getHours(); 
-// d.getMinutes();  
-// d.getSeconds(); 
-// document.write(d.getHours()+'\n') 
-
-
-
-
-function getWeather() {
-// window.location.reload()
-
+function getWeather() { 
     let cityValue = document.getElementById("city").value 
 
     let morning = document.getElementById("day")

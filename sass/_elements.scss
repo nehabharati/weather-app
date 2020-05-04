@@ -19,9 +19,7 @@ body{
 }  
 
 header{
-    > h1{ 
-            // position: relative;
-            // right:0.2em;
+    > h1{  
             font-family: 'Merriweather Sans', sans-serif;
             font-size: 40px;
             background: linear-gradient(to right top, #abcae1, #6bd2df, #50d6b1, #8dd065, #dcb913);
@@ -276,7 +274,6 @@ header{
         position: absolute;
         top:0;
         left: 0; 
-        // margin-left: 4em;
         margin-top: 3em;
     }
     #todayn,#todayd{
@@ -324,7 +321,7 @@ header{
         margin-top: -19.5em;
     } 
     #daily-descn,#daily-descd{
-        // display: none;
+        
         font-size: 1em;
         color: white;
         position: absolute;
@@ -353,7 +350,7 @@ header{
         margin-top: -19.5em;
     } 
     #daily-descn1,#daily-descd1{
-        // display: none;
+        
         font-size: 1em;
         position: absolute;
         color: white;
@@ -381,7 +378,7 @@ header{
         margin-top: -19em;
     } 
     #daily-descn2,#daily-descd2{
-        // display: none;
+        
         font-size: 1em;
         position: absolute;
         color: white;
@@ -408,7 +405,7 @@ header{
         margin-top: -19em;
     }  
     #daily-descn3,#daily-descd3{
-        // display: none;
+        
         font-size: 1em;
         position: absolute;
         color: white;
@@ -435,7 +432,7 @@ header{
         margin-top: -19em;
     } 
     #daily-descn4,#daily-descd4{
-        // display: none;
+        
         font-size: 1em;
         color: white;
         position: absolute;
@@ -588,7 +585,7 @@ header{
         margin-top: 3em;
 
         > #daily-descn{
-            // display: none;
+            
             font-size: 0.9em;
             color: white;
             position: absolute;
@@ -636,7 +633,7 @@ header{
         margin-left: -0.8em;
         margin-top: 6em;
             > #daily-descn1{
-                // display: none;
+                
                 font-size: 0.9em;
                 position: absolute;
                 color: white;
@@ -680,7 +677,7 @@ header{
         margin-left: -5.8em;
         margin-top: 9em;
             > #daily-descn2{
-                // display: none;
+                
                 font-size: 0.9em;
                 position: absolute;
                 color: white;
@@ -725,7 +722,7 @@ header{
         margin-top: 12em;
                 
         > #daily-descn3 {
-            // display: none;
+            
             font-size: 0.9em;
             position: absolute;
             color: white;
@@ -735,7 +732,7 @@ header{
             margin-top: -20em;
         }
         > #daily-descd3{
-            // display: none;
+            
             font-size: 0.9em;
             position: absolute;
             color: $dark-turqiouse;
@@ -770,7 +767,7 @@ header{
         margin-left: -15em;
         margin-top: 15em;
             > #daily-descn4 {
-                // display: none;
+                
                 font-size: 0.9em;
                 color: white;
                 position: absolute;
@@ -780,7 +777,7 @@ header{
                 margin-top: -20em;
             }
             > #daily-descd4{
-                // display: none;
+                
                 font-size: 0.9em;
                 color: $dark-turqiouse;
                 position: absolute;
@@ -921,7 +918,7 @@ header{
     left: 2.8em;
 }
 #daily-descn{
-    // display: none;
+    
     font-size: 1em;
     color: white;
     position: absolute;
@@ -960,7 +957,7 @@ header{
     left: 7.7em;
 }
 #daily-descn1{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: white;
@@ -999,7 +996,7 @@ header{
     left: 12.6em;
 }
 #daily-descn2{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: white;
@@ -1038,7 +1035,7 @@ header{
     left: 17.6em;
 }
 #daily-descn3{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: white;
@@ -1109,7 +1106,7 @@ header{
     left: 21.6em;
 }
 #daily-descn4{
-    // display: none;
+    
     font-size: 1em;
     color: white;
     position: absolute;
@@ -1153,7 +1150,7 @@ header{
     left: 2.8em;
 }
 #daily-descd{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: $dark-turqiouse;
@@ -1196,7 +1193,7 @@ header{
     left: 7.7em;
 }
 #daily-descd1{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: $dark-turqiouse;
@@ -1239,7 +1236,7 @@ header{
     left: 12.6em;
 }
 #daily-descd2{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: $dark-turqiouse;
@@ -1283,7 +1280,7 @@ header{
     left: 17.6em;
 }
 #daily-descd3{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: $dark-turqiouse;
@@ -1326,7 +1323,7 @@ header{
     left: 21.6em;
 }
 #daily-descd4{
-    // display: none;
+    
     font-size: 1em;
     position: absolute;
     color: $dark-turqiouse;
