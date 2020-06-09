@@ -89,7 +89,7 @@ header{
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 4px;
-    color: #ffffff;
+    color: white;
     background-image: -webkit-linear-gradient(to right top, #abcae1, #6bd2df, #50d6b1, #8dd065, #dcb913);
     background-image: linear-gradient(to right top, #abcae1, #6bd2df, #50d6b1, #8dd065, #dcb913);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
@@ -109,9 +109,10 @@ header{
     width:10%;
     height: 40%; 
     padding: 10% 10% 30%;
+    background: url("../images/sunrise.jpg");
     background-color: transparent;
     display: none; 
-    margin-top: 1em;
+    margin: 5% auto;
     position: relative;
     animation: levitate;
     animation-duration: 3s;
@@ -186,18 +187,22 @@ header{
     width:10%;
     height: 40%; 
     padding: 10% 10% 30%;
-    background-color: transparent;
+    // background: url("../images/night-sky.jpg");
+    background: hsla(0,0%,100%,.5);
+    // background-color: transparent;
+    border-radius: 10% 10% 10% 10%;
+    color: black;
     display: none; 
     position: relative;
-    margin-top: 4em;
+    margin: 5% auto;
     animation: levitate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     &::before{
         content: "";
-        background-image: black;
-        background-size: cover;
+        // background-image: black;
+        // background-size: cover;
         position: absolute; 
         border-radius: 10% 10% 10% 10%;
         -webkit-box-shadow: 0px 1px 16px 0px rgba(255,255,255,1);
@@ -208,6 +213,7 @@ header{
         bottom: 0px;
         left: 0px;
         opacity: 0.5;
+        // filter: blur(200px);
     }
 }
 
@@ -219,13 +225,13 @@ header{
     
 }
  #descn {
-    color: white;
+    color: black;
     position: absolute;
     top:-4.0em;
     left: 8.5em; 
 }
 #tempn {
-    color: white; 
+    color: black; 
     position: absolute;
     font-size: 1.8em;
     z-index: 1;
@@ -323,7 +329,7 @@ header{
     #daily-descn,#daily-descd{
         
         font-size: 1em;
-        color: white;
+        color: black;
         position: absolute;
         top:10em;
         left: 2.5em;
@@ -334,7 +340,7 @@ header{
         font-size: 1em;
         position: absolute;
         top:22em;
-        color: white;
+        color: black;
         left: 3.2em;
         margin-top: -15em;
         margin-left: -2em;
@@ -343,7 +349,7 @@ header{
         display: none;
         width: 2.5em;
         position: absolute;
-        color: white;
+        color: black;
         top:25.5em;
         left: 7.7em;
         margin-left: 4em;
@@ -353,7 +359,7 @@ header{
         
         font-size: 1em;
         position: absolute;
-        color: white;
+        color: black;
         top:27em;
         left: 7.5em;
         margin-left: 10em;
@@ -362,7 +368,7 @@ header{
     #daily-daten1,#daily-dated1{
         font-size: 1em;
         position: absolute;
-        color: white;
+        color: black;
         top:22em;
         left: 8em;
         margin-top: -15em;
@@ -381,7 +387,7 @@ header{
         
         font-size: 1em;
         position: absolute;
-        color: white;
+        color: black;
         top:27em;
         left: 12.5em;
         margin-left: 10em;
@@ -390,7 +396,7 @@ header{
     #daily-daten2,#daily-dated2{
         font-size: 1em;
         position: absolute;
-        color: white;
+        color: black;
         top:22em;
         left: 13.0em;
         margin-top: -15em;
@@ -408,7 +414,7 @@ header{
         
         font-size: 1em;
         position: absolute;
-        color: white;
+        color: black;
         top:27em;
         left: 17em; 
         margin-left: 10em;
@@ -434,7 +440,7 @@ header{
     #daily-descn4,#daily-descd4{
         
         font-size: 1em;
-        color: white;
+        color: black;
         position: absolute;
         top:27em;
         left: 21.3em;
@@ -445,7 +451,7 @@ header{
         font-size: 1em;
         position: absolute;
         top:22em;
-        color: white;
+        color: black;
         left: 22.0em;
         margin-top: -15em;
         margin-left: -2em;
@@ -513,7 +519,7 @@ header{
         font-size: 0.3em;
         position: absolute;
         top:22em;
-        color: white;
+        color: black;
         left: 3.2em;
         margin-top: -15em;
         margin-left: -2em;
@@ -587,7 +593,7 @@ header{
         > #daily-descn{
             
             font-size: 0.9em;
-            color: white;
+            color: black;
             position: absolute;
             top:10em;
             left: 2.5em;
@@ -611,7 +617,7 @@ header{
             font-size: 0.9em;
             position: absolute;
             top:22em;
-            color: white;
+            color: black;
             left: 3.2em;
             margin-top: -15em;
             margin-left: 2em;
@@ -636,7 +642,7 @@ header{
                 
                 font-size: 0.9em;
                 position: absolute;
-                color: white;
+                color: black;
                 top:27em;
                 left: 7.5em;
                 margin-left: 10em;
@@ -654,7 +660,7 @@ header{
             > #daily-daten1 {
                 font-size: 0.9em;
                 position: absolute;
-                color: white;
+                color: black;
                 top:22em;
                 left: 8em;
                 margin-top: -15em;
@@ -680,7 +686,7 @@ header{
                 
                 font-size: 0.9em;
                 position: absolute;
-                color: white;
+                color: black;
                 top:27em;
                 left: 12.5em;
                 margin-left: 10.8em;
@@ -698,7 +704,7 @@ header{
             > #daily-daten2 {
                 font-size: 0.9em;
                 position: absolute;
-                color: white;
+                color: black;
                 top:22em;
                 left: 13.0em;
                 margin-top: -15em;
@@ -725,7 +731,7 @@ header{
             
             font-size: 0.9em;
             position: absolute;
-            color: white;
+            color: black;
             top:27em;
             left: 17em; 
             margin-left: 11.5em;
@@ -744,7 +750,7 @@ header{
         > #daily-daten3 {
             font-size: 0.9em;
             position: absolute;
-            color: white;
+            color: black;
             top:22em;
             left: 17.7em;
             margin-top: -15em;
@@ -769,7 +775,7 @@ header{
             > #daily-descn4 {
                 
                 font-size: 0.9em;
-                color: white;
+                color: black;
                 position: absolute;
                 top:27em;
                 left: 21.3em;
@@ -790,7 +796,7 @@ header{
                 font-size: 0.9em;
                 position: absolute;
                 top:22em;
-                color: white;
+                color: black;
                 left: 22.0em;
                 margin-top: -15em;
                 margin-left: 0.8em;
@@ -818,7 +824,7 @@ header{
         display: none;
         font-size: 0.7em;
         position: absolute;
-        color: white;
+        color: black;
         top:25.5em;
         left: 7.7em;
         margin-left: 9em;
@@ -889,7 +895,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 2.8em;
 }
@@ -897,7 +903,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 2.8em;
 } 
@@ -905,7 +911,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 2.8em;
 }
@@ -913,14 +919,14 @@ header{
     display: none;
     width: 2.3em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 2.8em;
 }
 #daily-descn{
     
     font-size: 1em;
-    color: white;
+    color: black;
     position: absolute;
     top:27em;
     left: 2.5em;
@@ -929,14 +935,14 @@ header{
     font-size: 1em;
     position: absolute;
     top:22em;
-    color: white;
+    color: black;
     left: 3.2em;
 }
 #daily-cloudn1 {
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 7.7em;
 }
@@ -944,7 +950,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 7.7em;
 } 
@@ -953,21 +959,21 @@ header{
     width: 2.5em;
     position: absolute;
     top:25.5em;
-    color: white;
+    color: black;
     left: 7.7em;
 }
 #daily-descn1{
     
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:27em;
     left: 7.7em;
 }
 #daily-daten1{
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:22em;
     left: 8em;
 }
@@ -976,14 +982,14 @@ header{
     width: 2.5em;
     position: absolute;
     top:25.5em;
-    color: white;
+    color: black;
     left: 12.6em;
 }
 #daily-rainn2 {
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 12.6em;
 } 
@@ -992,21 +998,21 @@ header{
     width: 2.5em;
     position: absolute;
     top:25.5em;
-    color: white;
+    color: black;
     left: 12.6em;
 }
 #daily-descn2{
     
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:27em;
     left: 12.5em;
 }
 #daily-daten2{
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:22em;
     left: 13.0em;
 }
@@ -1014,7 +1020,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 17em;
 }
@@ -1022,7 +1028,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 17.6em;
 } 
@@ -1030,7 +1036,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 17.6em;
 }
@@ -1038,14 +1044,14 @@ header{
     
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:27em;
     left: 17em;
 }
 #daily-daten3{
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top:22em;
     left: 17.7em;
 }
@@ -1053,7 +1059,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 21.6em;
 }
@@ -1061,7 +1067,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 21.6em;
 } 
@@ -1069,7 +1075,7 @@ header{
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 21.6em;
 }
@@ -1077,7 +1083,7 @@ header{
     display: none;
     width: 2.3em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 7.7em;
 }
@@ -1085,7 +1091,7 @@ header{
     display: none;
     width: 2.3em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 12.6em;
 }
@@ -1094,21 +1100,21 @@ header{
     width: 2.3em;
     position: absolute;
     top:25.5em;
-    color: white;
+    color: black;
     left: 17.4em;
 }
 #daily-moonn4 {
     display: none;
     width: 2.3em;
     position: absolute;
-    color: white;
+    color: black;
     top:25.5em;
     left: 21.6em;
 }
 #daily-descn4{
     
     font-size: 1em;
-    color: white;
+    color: black;
     position: absolute;
     top:27em;
     left: 21.3em;
@@ -1117,7 +1123,7 @@ header{
     font-size: 1em;
     position: absolute;
     top:22em;
-    color: white;
+    color: black;
     left: 22.0em;
 }
 

@@ -71,7 +71,7 @@ header > h1 {
   padding: 0.5em 1em;
   text-decoration: none;
   border-radius: 4px;
-  color: #ffffff;
+  color: white;
   background-image: -webkit-linear-gradient(to right top, #abcae1, #6bd2df, #50d6b1, #8dd065, #dcb913);
   background-image: linear-gradient(to right top, #abcae1, #6bd2df, #50d6b1, #8dd065, #dcb913);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
@@ -88,9 +88,10 @@ header > h1 {
   width: 10%;
   height: 40%;
   padding: 10% 10% 30%;
+  background: url("../images/sunrise.jpg");
   background-color: transparent;
   display: none;
-  margin-top: 1em;
+  margin: 5% auto;
   position: relative;
   animation: levitate;
   animation-duration: 3s;
@@ -158,18 +159,18 @@ header > h1 {
   width: 10%;
   height: 40%;
   padding: 10% 10% 30%;
-  background-color: transparent;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10% 10% 10% 10%;
+  color: black;
   display: none;
   position: relative;
-  margin-top: 4em;
+  margin: 5% auto;
   animation: levitate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out; }
   #night::before {
     content: "";
-    background-image: black;
-    background-size: cover;
     position: absolute;
     border-radius: 10% 10% 10% 10%;
     -webkit-box-shadow: 0px 1px 16px 0px white;
@@ -187,13 +188,13 @@ header > h1 {
   position: relative; }
 
 #descn {
-  color: white;
+  color: black;
   position: absolute;
   top: -4.0em;
   left: 8.5em; }
 
 #tempn {
-  color: white;
+  color: black;
   position: absolute;
   font-size: 1.8em;
   z-index: 1;
@@ -287,7 +288,7 @@ header > h1 {
 
   #daily-descn, #daily-descd {
     font-size: 1em;
-    color: white;
+    color: black;
     position: absolute;
     top: 10em;
     left: 2.5em;
@@ -298,7 +299,7 @@ header > h1 {
     font-size: 1em;
     position: absolute;
     top: 22em;
-    color: white;
+    color: black;
     left: 3.2em;
     margin-top: -15em;
     margin-left: -2em; }
@@ -307,7 +308,7 @@ header > h1 {
     display: none;
     width: 2.5em;
     position: absolute;
-    color: white;
+    color: black;
     top: 25.5em;
     left: 7.7em;
     margin-left: 4em;
@@ -316,7 +317,7 @@ header > h1 {
   #daily-descn1, #daily-descd1 {
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top: 27em;
     left: 7.5em;
     margin-left: 10em;
@@ -325,7 +326,7 @@ header > h1 {
   #daily-daten1, #daily-dated1 {
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top: 22em;
     left: 8em;
     margin-top: -15em;
@@ -343,7 +344,7 @@ header > h1 {
   #daily-descn2, #daily-descd2 {
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top: 27em;
     left: 12.5em;
     margin-left: 10em;
@@ -352,7 +353,7 @@ header > h1 {
   #daily-daten2, #daily-dated2 {
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top: 22em;
     left: 13.0em;
     margin-top: -15em;
@@ -369,7 +370,7 @@ header > h1 {
   #daily-descn3, #daily-descd3 {
     font-size: 1em;
     position: absolute;
-    color: white;
+    color: black;
     top: 27em;
     left: 17em;
     margin-left: 10em;
@@ -394,7 +395,7 @@ header > h1 {
 
   #daily-descn4, #daily-descd4 {
     font-size: 1em;
-    color: white;
+    color: black;
     position: absolute;
     top: 27em;
     left: 21.3em;
@@ -405,7 +406,7 @@ header > h1 {
     font-size: 1em;
     position: absolute;
     top: 22em;
-    color: white;
+    color: black;
     left: 22.0em;
     margin-top: -15em;
     margin-left: -2em; } }
@@ -463,7 +464,7 @@ header > h1 {
     font-size: 0.3em;
     position: absolute;
     top: 22em;
-    color: white;
+    color: black;
     left: 3.2em;
     margin-top: -15em;
     margin-left: -2em; } }
@@ -526,7 +527,7 @@ header > h1 {
     margin-top: 3em; }
     #todayn > #daily-descn, #todayd > #daily-descn {
       font-size: 0.9em;
-      color: white;
+      color: black;
       position: absolute;
       top: 10em;
       left: 2.5em;
@@ -544,7 +545,7 @@ header > h1 {
       font-size: 0.9em;
       position: absolute;
       top: 22em;
-      color: white;
+      color: black;
       left: 3.2em;
       margin-top: -15em;
       margin-left: 2em; }
@@ -566,7 +567,7 @@ header > h1 {
     #plus1n > #daily-descn1, #plus1d > #daily-descn1 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 27em;
       left: 7.5em;
       margin-left: 10em;
@@ -582,7 +583,7 @@ header > h1 {
     #plus1n > #daily-daten1, #plus1d > #daily-daten1 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 22em;
       left: 8em;
       margin-top: -15em;
@@ -605,7 +606,7 @@ header > h1 {
     #plus2n > #daily-descn2, #plus2d > #daily-descn2 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 27em;
       left: 12.5em;
       margin-left: 10.8em;
@@ -621,7 +622,7 @@ header > h1 {
     #plus2n > #daily-daten2, #plus2d > #daily-daten2 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 22em;
       left: 13.0em;
       margin-top: -15em;
@@ -644,7 +645,7 @@ header > h1 {
     #plus3n > #daily-descn3, #plus3d > #daily-descn3 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 27em;
       left: 17em;
       margin-left: 11.5em;
@@ -660,7 +661,7 @@ header > h1 {
     #plus3n > #daily-daten3, #plus3d > #daily-daten3 {
       font-size: 0.9em;
       position: absolute;
-      color: white;
+      color: black;
       top: 22em;
       left: 17.7em;
       margin-top: -15em;
@@ -682,7 +683,7 @@ header > h1 {
     margin-top: 15em; }
     #plus4n > #daily-descn4, #plus4d > #daily-descn4 {
       font-size: 0.9em;
-      color: white;
+      color: black;
       position: absolute;
       top: 27em;
       left: 21.3em;
@@ -700,7 +701,7 @@ header > h1 {
       font-size: 0.9em;
       position: absolute;
       top: 22em;
-      color: white;
+      color: black;
       left: 22.0em;
       margin-top: -15em;
       margin-left: 0.8em; }
@@ -726,7 +727,7 @@ header > h1 {
     display: none;
     font-size: 0.7em;
     position: absolute;
-    color: white;
+    color: black;
     top: 25.5em;
     left: 7.7em;
     margin-left: 9em;
@@ -788,7 +789,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 2.8em; }
 
@@ -796,7 +797,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 2.8em; }
 
@@ -804,7 +805,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 2.8em; }
 
@@ -812,13 +813,13 @@ header > h1 {
   display: none;
   width: 2.3em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 2.8em; }
 
 #daily-descn {
   font-size: 1em;
-  color: white;
+  color: black;
   position: absolute;
   top: 27em;
   left: 2.5em; }
@@ -827,14 +828,14 @@ header > h1 {
   font-size: 1em;
   position: absolute;
   top: 22em;
-  color: white;
+  color: black;
   left: 3.2em; }
 
 #daily-cloudn1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 7.7em; }
 
@@ -842,7 +843,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 7.7em; }
 
@@ -851,20 +852,20 @@ header > h1 {
   width: 2.5em;
   position: absolute;
   top: 25.5em;
-  color: white;
+  color: black;
   left: 7.7em; }
 
 #daily-descn1 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 27em;
   left: 7.7em; }
 
 #daily-daten1 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 22em;
   left: 8em; }
 
@@ -873,14 +874,14 @@ header > h1 {
   width: 2.5em;
   position: absolute;
   top: 25.5em;
-  color: white;
+  color: black;
   left: 12.6em; }
 
 #daily-rainn2 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 12.6em; }
 
@@ -889,20 +890,20 @@ header > h1 {
   width: 2.5em;
   position: absolute;
   top: 25.5em;
-  color: white;
+  color: black;
   left: 12.6em; }
 
 #daily-descn2 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 27em;
   left: 12.5em; }
 
 #daily-daten2 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 22em;
   left: 13.0em; }
 
@@ -910,7 +911,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 17em; }
 
@@ -918,7 +919,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 17.6em; }
 
@@ -926,21 +927,21 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 17.6em; }
 
 #daily-descn3 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 27em;
   left: 17em; }
 
 #daily-daten3 {
   font-size: 1em;
   position: absolute;
-  color: white;
+  color: black;
   top: 22em;
   left: 17.7em; }
 
@@ -948,7 +949,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 21.6em; }
 
@@ -956,7 +957,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 21.6em; }
 
@@ -964,7 +965,7 @@ header > h1 {
   display: none;
   width: 2.5em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 21.6em; }
 
@@ -972,7 +973,7 @@ header > h1 {
   display: none;
   width: 2.3em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 7.7em; }
 
@@ -980,7 +981,7 @@ header > h1 {
   display: none;
   width: 2.3em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 12.6em; }
 
@@ -989,20 +990,20 @@ header > h1 {
   width: 2.3em;
   position: absolute;
   top: 25.5em;
-  color: white;
+  color: black;
   left: 17.4em; }
 
 #daily-moonn4 {
   display: none;
   width: 2.3em;
   position: absolute;
-  color: white;
+  color: black;
   top: 25.5em;
   left: 21.6em; }
 
 #daily-descn4 {
   font-size: 1em;
-  color: white;
+  color: black;
   position: absolute;
   top: 27em;
   left: 21.3em; }
@@ -1011,7 +1012,7 @@ header > h1 {
   font-size: 1em;
   position: absolute;
   top: 22em;
-  color: white;
+  color: black;
   left: 22.0em; }
 
 #daily-cloudd {

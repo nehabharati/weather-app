@@ -96,9 +96,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
     .then(res => res.json())
     .then(res => fetch(" https://api.openweathermap.org/data/2.5/onecall?lat="+res.results[0].geometry.lat+"&lon="+res.results[0].geometry.lng+"&units=metric&appid=ebba0a82b1892fe9343e963816506644")
                 .then(res => res.json())
-                .then(res => {
-                    (res) 
-
+                .then(res => {  
                         const unixTimestamp = res.daily[0].dt
                         const milliseconds = unixTimestamp * 1000 
                         const dateObject = new Date(milliseconds)           
@@ -130,7 +128,7 @@ fetch("https://api.opencagedata.com/geocode/v1/json?q="+cityValue+"&key=13760d86
                         let day4 = dateObject4.toLocaleString("en-US", {day: "numeric"})
 
                      if (d.getHours() >= 18 || d.getHours() < 06) {
-                         document.body.style.background = "black"
+                        document.body.style.background = "url('./images/night-sky.jpg')"
                         night.style.display = "block"
                         nighty.style.display = "block" 
                         tempn.innerHTML = res.current.temp + "&#8451";
